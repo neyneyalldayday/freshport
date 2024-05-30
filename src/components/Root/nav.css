@@ -1,0 +1,18 @@
+.nav{
+    background-color: cadetblue;
+    margin-top: 0;
+    display: flex;
+    gap:1rem;
+    padding: 1rem;
+    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.5);
+}
+
+.nav-list{
+    list-style: none;
+}
+
+
+.nav-item{
+    text-decoration: nome;
+    color: inherit;    
+}

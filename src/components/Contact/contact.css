@@ -1,0 +1,24 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;    
+    margin-top: 10rem;
+}
+
+
+.form{
+    box-shadow: 4px 4px 8px rgba(134, 134, 78, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.input-item{
+display: flex;
+gap: .5rem;
+}

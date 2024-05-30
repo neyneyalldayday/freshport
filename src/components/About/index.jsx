@@ -1,5 +1,6 @@
 import React from 'react'
 import coverPhoto from '../../assets/coverPhoto.jpg'
+import photoController from '../../assets/photoController.jpg'
 import './about.css'
 
 const About = () => {
@@ -7,18 +8,21 @@ const About = () => {
     <div className='about-wrapper'>
         <header className='about-header'>
             <p>Rene Trevino</p>
-            <p>Web Developer</p>
         </header>
         <section className='about-container'>
             <div className='img-container'>
                 <img src={ coverPhoto } alt="" />
             </div>
             <div className='about-content'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis modi commodi aspernatur 
-                    blanditiis veniam libero, vitae alias, aliquid voluptatem tempora quos inventore, culpa harum
-                     debitis! Veritatis sit delectus tenetur ratione expedita reprehenderit. Sunt ad expedita alias 
-                     id neque quam quod, nostrum minus eveniet repudiandae numquam praesentium odit asperiores voluptatem ipsam.
+                <p>Rene is a web developer from San Antonio, Texas.
+                     He has been working in web development since early 2020, 
+                     initially specializing in the MERN stack and then expanding into other stacks and types of development, 
+                     ranging from WordPress to game development. Rene loves all things involving problem-solving, so feel free 
+                     to contact him for any problems that need to be solved.
                 </p>
+            <div className='content-img-container'>
+                <img src={ photoController } alt="" />
+            </div>
             </div>
 
         </section>
