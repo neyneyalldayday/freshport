@@ -3,6 +3,7 @@ import Root from "./components/Root"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router}/>     
+      <RouterProvider router={router}/>  
+      <Footer/>   
     </>
   )
 }

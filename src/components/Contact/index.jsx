@@ -8,7 +8,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can handle the form submission, e.g., send data to a server
+    // Here i can handle the form submission, e.g., send data to a server
     console.log("Name:", name);
     console.log("Email:", email);
     console.log("Message:", message);
