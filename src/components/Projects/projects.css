@@ -1,0 +1,32 @@
+/* .slider-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.slider-wrapper{
+    padding: 5rem;
+    margin-top: 5rem;  
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.my-slider{
+    /* border: 5px purple dotted; */
+    max-width: 30rem;
+    min-width: 10rem;
+    
+}
+
+.my-slider>div{
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+
