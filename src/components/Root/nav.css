@@ -5,6 +5,7 @@
     gap:1rem;
     padding: 1rem;
     box-shadow: inset 4px 4px 8px rgba(0,0,0,0.5);
+    width: 100%;
 }
 
 .nav-list{
