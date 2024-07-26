@@ -1,6 +1,6 @@
 import workOne from '../assets/dpsite.png'
-import workTwo from '../assets/work2.jpg'
-import workThree from '../assets/work3.jpg'
+import workTwo from '../assets/homepageCapture.png'
+import workThree from '../assets/screenshothomepage.png'
 import workFour from '../assets/work4.jpg'
 
    
@@ -15,25 +15,25 @@ export default  [
         },
         {
             type: 'full-stack',
-            title: 'parker the publisher',
-            description: "updated a website for a client",
-            link: 'https://parkerthepublisher.com/',
-            repo: 'word press site',
+            title: 'vintage site',
+            description: "An e-commerce platform for selling vintage goods and promoting sustainability.",
+            link: 'https://the-vintage-shop-4ezmtnbdt-neyneyalldayday.vercel.app/',
+            repo: 'https://github.com/neyneyalldayday/vintageShop',
             img: workTwo
         },
         {
-            type: 'frame-work',
-            title: 'parker the publisher',
-            description: "updated a website for a client",
-            link: 'https://parkerthepublisher.com/',
-            repo: 'word press site',
+            type: 'full-stack',
+            title: 'huddle',
+            description: "an educational site",
+            link: 'https://rocky-taiga-01843-d9e019c27e3f.herokuapp.com/',
+            repo: 'https://github.com/Kristin611/huddle',
             img: workThree
         },
         {
             type: 'Dart',
-            title: 'parker the publisher',
-            description: "updated a website for a client",
-            link: 'https://parkerthepublisher.com/',
+            title: 'data processing',
+            description: "learning dart",
+            link: 'https://github.com/neyneyalldayday/DataProcessing/tree/main',
             repo: 'word press site',
             img: workFour
         },
