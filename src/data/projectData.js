@@ -3,7 +3,7 @@ import workTwo from '../assets/work2.jpg'
 import workThree from '../assets/work3.jpg'
 import workFour from '../assets/work4.jpg'
 
-
+   
 export default  [
         {
             type: 'Word Press',

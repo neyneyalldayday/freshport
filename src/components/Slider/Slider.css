@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1rem;
     margin-bottom: 20px;
+    height: 65vh;
   }
   
   .slide-container {
@@ -14,28 +15,27 @@
     background-color: #9e3b99;
     width: 80%; /* Adjust based on your needs */
     max-width: 600px; /* Adjust based on your needs */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .project-info{
     display: flex;
     flex-direction: column;
-    line-height: .25;
+    
     
   }
 
 
   .project-links{
-    position: relative;
+    
   }
 
-  .project-links a{
-    position: absolute;
-    left: 0;
-    bottom: 10%;
+  .project-links a{  
     background-color: cadetblue;
     padding: .5rem;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-radius: 6px;    
     box-shadow: inset 2px 2px 8px rgba(0,0,0,0.6);
   }
   

@@ -11,23 +11,22 @@ const Slider = ({ items }) => {
   const goToNextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide === items.length - 1? 0 : prevSlide + 1));
   };
-
+   console.log(items[currentSlide].description)
   return (
     <div className="slider">
-    <button onClick={goToPreviousSlide}>Previous</button>
-    <div className="slide-container">
-      <section className='project-info'>
-        <p>{items[currentSlide].type}</p>  
-        <p>{items[currentSlide].title}</p> 
-        <p>{items[currentSlide].description}</p>
-      </section>
-      <section className='project-links'>
-        <img src={items[currentSlide].img}/>
-        <a href={items[currentSlide].link} target="_blank" rel="noopener noreferrer">View Project</a>
-      </section>   
+      <button onClick={goToPreviousSlide}>Previous</button>
+        <div className="slide-container">
+          <section className='project-info'>
+              <p>{items[currentSlide].full_name.split("/")[1]}</p>        
+              <p>{items[currentSlide].description}</p>       
+          </section>
+          <section className='project-links'>
+            <a href={items[currentSlide].deployments_url} target="_blank" rel="noopener noreferrer">deployed site</a>
+            <a href={items[currentSlide].homepage_url} target="_blank" rel="noopener noreferrer">repo</a>
+          </section>   
+        </div>
+      <button onClick={goToNextSlide}>Next</button>
     </div>
-    <button onClick={goToNextSlide}>Next</button>
-  </div>
   );
 };
 
