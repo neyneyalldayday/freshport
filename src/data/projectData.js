@@ -2,6 +2,7 @@ import workOne from '../assets/dpsite.png'
 import workTwo from '../assets/homepageCapture.png'
 import workThree from '../assets/screenshothomepage.png'
 import workFour from '../assets/work4.jpg'
+import workFive from '../assets/btown-site.png'
 
    
 export default  [
@@ -12,6 +13,14 @@ export default  [
             link: 'https://parkerthepublisher.com/',
             repo: 'word press site',
             img: workOne
+        },
+        {
+            type: 'full-stack relational database',
+            title: 'LePalefox',
+            description: "a social space and blog/portfolio for a fassion designer in san antonio TX",
+            link: 'https://lepalefox.onrender.com',
+            repo: 'https://github.com/neyneyalldayday/LepaleFox',
+            img: workFive
         },
         {
             type: 'full-stack',
